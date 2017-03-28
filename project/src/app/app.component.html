@@ -1,0 +1,385 @@
+<app-header></app-header>
+<div style="min-height:200px;"></div>
+<div class="main main-raised paddingTop20">
+
+    <div class="section section-basic">
+        <div class="container">
+            <div class="title">
+                <h1>Components<br></h1>
+            </div>
+
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#colors" aria-expanded="false" aria-controls="buttons">
+                            <h4 class="panel-title">
+                                COLORS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+
+                    <div id="colors" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-2" style="background-color: var(--primary-serveloja); color:#FFF; height:100px; margin:5px;">
+                                    <h3>Primary</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: var(--success-serveloja); color:#FFF; height:100px; margin:5px;">
+                                    <h3>Success</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: var(--info-serveloja); color:#FFF; height:100px; margin:5px;">
+                                    <h3>Info</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: var(--warning-serveloja); color:#FFF; height:100px; margin:5px;">
+                                    <h3>Warning</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: var(--danger-serveloja); color:#FFF; height:100px; margin:5px;">
+                                    <h3>Danger</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: var(--rose-serveloja); color:#FFF; height:100px; margin:5px;">
+                                    <h3>Rose</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: #57B039; color:#FFF; height:100px; margin:5px;">
+                                    <h3>#57B039</h3>
+                                </div>
+
+                                <div class="col-md-2" style="background-color: #1EA46A; color:#FFF; height:100px; margin:5px;">
+                                    <h3>#1EA46A</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#buttons" aria-expanded="false" aria-controls="buttons">
+                            <h4 class="panel-title">
+                                BUTTONS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="buttons" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <app-buttons></app-buttons>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading1">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#iconsButtons" aria-expanded="false" aria-controls="iconsButtons">
+                            <h4 class="panel-title">
+                                ICONS BUTTONS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="iconsButtons" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                        <div class="panel-body">
+                            <app-icons-buttons></app-icons-buttons>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading2">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#inputs" aria-expanded="false" aria-controls="inputs">
+                            <h4 class="panel-title">
+                                INPUTS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="inputs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                        <div class="panel-body">
+                            <app-inputs></app-inputs>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#ceckboxes" aria-expanded="false" aria-controls="ceckboxes">
+                            <h4 class="panel-title">
+                                CHECKBOXES - RADIO BUTTONS - TOGGLE BUTTONS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="ceckboxes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div id="checkRadios">
+                                <div class="row">
+                                    <app-checkboxes></app-checkboxes>
+                                    <app-radio-buttons></app-radio-buttons>
+                                    <app-toggle-buttons></app-toggle-buttons>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading3">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#dropdown" aria-expanded="false" aria-controls="dropdown">
+                            <h4 class="panel-title">
+                                DROPDOWN - DROPUP
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="dropdown" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                        <div class="panel-body">
+                            <app-dropdown></app-dropdown>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading4">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#sliders" aria-expanded="false" aria-controls="sliders">
+                            <h4 class="panel-title">
+                                SLIDERS - LABELS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="sliders" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                        <div class="panel-body">
+                            <div id="sliders">
+                                <div class="row">
+                                    <app-sliders></app-sliders>
+                                    <app-labels></app-labels>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading5">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#progress" aria-expanded="false" aria-controls="progress">
+                            <h4 class="panel-title">
+                                PROGRESS - PAGINATION
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="progress" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                        <div class="panel-body">
+                            <div id="progress">
+                                <div class="row">
+                                    <app-progress></app-progress>
+                                    <app-pagination></app-pagination>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading6">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#alerts" aria-expanded="false" aria-controls="alerts">
+                            <h4 class="panel-title">
+                                ALERTS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="alerts" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                        <div class="panel-body">
+                            <app-alerts></app-alerts>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading7">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#menu" aria-expanded="false" aria-controls="menu">
+                            <h4 class="panel-title">
+                                MENU
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="menu" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                        <div class="panel-body">
+                            <app-menu></app-menu>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading8">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#tabs" aria-expanded="false" aria-controls="tabs">
+                            <h4 class="panel-title">
+                                TABS - NAV
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="tabs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                        <div class="panel-body">
+                            <app-tab-nav></app-tab-nav>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading9">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#nav" aria-expanded="false" aria-controls="nav">
+                            <h4 class="panel-title">
+                                NAV
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="nav" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                        <div class="panel-body">
+                            <app-nav></app-nav>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading10">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#typografy" aria-expanded="false" aria-controls="typografy">
+                            <h4 class="panel-title">
+                                TYPOGRAFY
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="typografy" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                        <div class="panel-body">
+                            <app-typografy></app-typografy>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#tables" aria-expanded="false" aria-controls="tables">
+                            <h4 class="panel-title">
+                                TABLES
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="tables" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div id="progress">
+                                <app-tables></app-tables>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading11">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse" aria-expanded="false" aria-controls="collapse">
+                            <h4 class="panel-title">
+                                COLLAPSE - ACCORDION
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                        <div class="panel-body">
+                            <app-collapse></app-collapse>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading12">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#footer" aria-expanded="false" aria-controls="footer">
+                            <h4 class="panel-title">
+                                FOOTER
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="footer" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                        <div class="panel-body">
+                            <app-footer></app-footer>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="marginTop50"></div>
+                <div class="title">
+                    <h1>Javascript components </h1><br>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#modal" aria-expanded="false" aria-controls="modal">
+                            <h4 class="panel-title">
+                                MODAL - POPOVERS
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="modal" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                            <div class="row">
+                                <app-modal></app-modal>
+                                <app-popovers></app-popovers>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading14">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#datepicker" aria-expanded="false" aria-controls="modal">
+                            <h4 class="panel-title">
+                                DATEPICKER - TOOLTIP
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="datepicker" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                        <div class="panel-body">
+                            <div class="row">
+                                <app-datepicker></app-datepicker>
+                                <app-tooltips></app-tooltips>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading14">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#notify" aria-expanded="false" aria-controls="modal">
+                            <h4 class="panel-title">
+                                Notify
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </h4>
+                        </a>
+                    </div>
+                    <div id="notify" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                            <div class="row">
+                                <app-notify></app-notify>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
